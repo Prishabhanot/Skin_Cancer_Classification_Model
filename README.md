@@ -1,9 +1,9 @@
-#Skin Cancer Classification Using CNN
+# Skin Cancer Classification Using CNN
 
-Overview
+## Overview
 This project implements a Convolutional Neural Network (CNN) to classify images of skin lesions into seven different categories of skin cancer. The dataset used is the HAM10000 dataset, which contains labeled dermatoscopic images.
 
-Dataset
+## Dataset
 
 The dataset includes images of skin lesions categorized into the following seven classes:
 
@@ -17,7 +17,7 @@ The dataset includes images of skin lesions categorized into the following seven
 
 The metadata for these images is provided in HAM10000_metadata.csv.
 
-Project Structure
+## Project Structure
 
 HAM10000_metadata.csv: Metadata containing lesion types, patient details, and image IDs.
 
@@ -25,7 +25,7 @@ data/HAM10000/: Directory containing all skin lesion images.
 
 skin_cancer_classification.py: The main script that processes data, trains the CNN model, and evaluates its performance.
 
-Steps in the Pipeline
+## Steps in the Pipeline
 
 1. Data Preprocessing
 
@@ -79,7 +79,7 @@ To execute the project, run the following command:
 
 python skin_cancer_classification.py
 
-Results and Insights
+##Results and Insights
 
 The trained CNN model achieves a test accuracy of approximately X% (varies based on training).
 
