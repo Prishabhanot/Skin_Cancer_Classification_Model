@@ -79,7 +79,7 @@ To execute the project, run the following command:
 
 python skin_cancer_classification.py
 
-##Results and Insights
+## Results and Insights
 
 The trained CNN model achieves a test accuracy of approximately X% (varies based on training).
 
