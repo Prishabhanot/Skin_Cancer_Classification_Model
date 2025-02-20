@@ -1,4 +1,4 @@
-**Skin Cancer Classification Using CNN**
+#Skin Cancer Classification Using CNN
 
 Overview
 This project implements a Convolutional Neural Network (CNN) to classify images of skin lesions into seven different categories of skin cancer. The dataset used is the HAM10000 dataset, which contains labeled dermatoscopic images.
