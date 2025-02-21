@@ -186,8 +186,6 @@ fig, ax = plt.subplots(figsize=(6, 6))
 sns.set(font_scale=1.6)
 sns.heatmap(cm, annot=True, linewidths=.5, ax=ax)
 
-# Plot fractional incorrect misclassifications
-
 #PLot fractional incorrect misclassifications
 incorr_fraction = 1 - np.diag(cm) / np.sum(cm, axis=1)
 plt.bar(np.arange(7), incorr_fraction)
