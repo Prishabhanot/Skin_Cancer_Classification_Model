@@ -1,2 +1,6 @@
 # Ignore virtual environment
 myenv/
+
+# Ignore image directories
+HAM10000_images_part_1/*
+HAM10000_images_part_2/*
